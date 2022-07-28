@@ -1,19 +1,10 @@
-# q
+Тестовое задание компании "Дэвэлопин"
 
-## Project setup
-```
-yarn install
-```
+Онлайн таблица с информацией о сотрудниках. 
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
+Стэк: Vue, Vuex, Vuetify, Vue-router
 
-### Compiles and minifies for production
-```
-yarn build
-```
+Вся информация хранится в локальном хранилище.
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+ТЗ: https://docs.google.com/document/d/19EfzDIRgJKeKMUG2i2ZxZvScJ5yTy3b_kV_OnV9W8r4/edit
+
