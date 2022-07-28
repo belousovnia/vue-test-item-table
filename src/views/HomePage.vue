@@ -116,6 +116,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+
   .delete-dialog {
     position: absolute;
     z-index: -1;
