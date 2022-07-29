@@ -17,8 +17,8 @@ export default {
     
   }),
   created() {
-    if (localStorage.getItem('staff') === null) localStorage.setItem('staff', JSON.stringify([]))
-  }
+    if (localStorage.getItem('staff') === null) localStorage.setItem('staff', JSON.stringify([]));
+  },
 };
 </script>
 

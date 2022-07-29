@@ -161,8 +161,8 @@
 </template>
 
 <script>
-  import { mapGetters } from 'vuex'
-  import { mapMutations } from 'vuex'
+  import { mapGetters } from 'vuex';
+  import { mapMutations } from 'vuex';
 
   export default {
     props: ['itemEdited'],
@@ -248,7 +248,7 @@
     watch: {
       editedIndex : (newVal, oldVal) => {
         console.log(newVal);
-      }
+      },
     },
     mounted() {
       if (this.itemEdited !== undefined) {

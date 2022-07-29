@@ -69,7 +69,7 @@ export default {
         { text: 'Имя', value: 'name' },
         { text: 'Отчество', value: 'patronymic' },
         { text: 'Должность', value: 'post' },
-        { text: '', value: 'actions', sortable: false }
+        { text: '', value: 'actions', sortable: false },
       ],
   }),
   components: {
@@ -112,7 +112,7 @@ export default {
       val || this.closeDelete()
     },
   },
-}
+};
 </script>
 
 <style lang="scss" scoped>

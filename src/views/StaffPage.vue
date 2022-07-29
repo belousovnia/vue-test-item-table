@@ -75,7 +75,7 @@
           ['Ставка']: this.getStaff[this.index]['rate'],
           ['Трудовая книжка']: this.getStaff[this.index]['workbook'] ? 'сдана' : 'не сдана',
           ['Дата начала работы']: this.getStaff[this.index]['startDate'],
-        }
+        };
       },
       deleteItemConfirm () {
         this.deletStaff(this.index);
@@ -90,9 +90,9 @@
     watch: {
       '$store.state.table.staff': function() {
         this.settingValue();
-      }
-    }
-  }
+      },
+    },
+  };
 </script>
 
 <style lang="scss" scoped>
