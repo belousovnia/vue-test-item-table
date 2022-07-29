@@ -7,17 +7,12 @@
 
 <script>
 import Header from '@/components/Header.vue';
+if (localStorage.getItem('staff') === null) localStorage.setItem('staff', JSON.stringify([]));
 
 export default {
   name: 'App',
   components: {
     Header,
-  },
-  data: () => ({
-    
-  }),
-  created() {
-    if (localStorage.getItem('staff') === null) localStorage.setItem('staff', JSON.stringify([]));
   },
 };
 </script>
